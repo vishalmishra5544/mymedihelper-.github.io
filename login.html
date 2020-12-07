@@ -44,7 +44,7 @@
                 <a href="index.html">
                     <h2 class="animated flash">
                         <img src="m.jpg" width=20%>
-                        <h3 class="logo"></h3>&nbsp;mymedihelper.com
+                        <h1 class="logo">mymedihelper.com</h1>
                     </h2>
                 </a>
             </div>
@@ -89,23 +89,26 @@
                 </div>
                 <br>
                 <br>
-                <h1>Login Page</h1>
+                <h1 class="titlecolor">Login Page</h1>
                 <hr>
                 <form>
-                    <label for="username"><b>Username :</b></label><br/>
-                    <input type="text" name="username" id="username" onBlur="checkAvailability()" /><label style="margin:10px;"><span id="user-availability-status"></span> </label>
-                    <br/><br/>
+                     <label  class="titlecolor" for="username"><b>Username :</b></label><br/>
+                     <input type="text" name="username" id="username" required placeholder="Enter username" onBlur="checkAvailability()" /><label style="margin:10px;"><span id="user-availability-status"></span> </label>
+                     <br/><br/>
 
-                    <label for="password"><b>Password :</b></label>
+                    <label  class="titlecolor" for="password"><b>Password :</b></label>
                     <br/>
-                    <input type="password" name="password" id="password" onBlur="checkPassword()" /><label style="margin:10px;"><span id="password-status"></span> </label>
+                    <input type="password" name="password" id="password" required placeholder="Enter password" onBlur="checkPassword()" /><label style="margin:10px;"><span id="password-status"></span> </label>
                     <br/><br/>
 
-                    <button type="submit" id="login-btn" formaction="http://localhost/online website/login.php" formmethod="post">Login</button>
-                    <button type="submit" id="login-btn" formaction="http://localhost/online website/register.php">Register New User</button>
-                    <br/><br/>
+                    <button type="submit" id="login-btn" >Login</button>
+                        <p id="error_code" style="color:#FF0000; font-size: 12px"></p>
+                </form>
+                <form>
+                    <button type="submit" id="login-btn" ">Register New User</button>
                     <p id="error_code" style="color:#FF0000; font-size: 12px"></p>
-                    <p>Forget Password ? <a href="register.html">Click Here</a></p>
+                    
+                </form>
                 </form>
             </div>
         </div>
@@ -115,39 +118,41 @@
     <footer>
         <div class="w-80">
             <div class="footer-box">
-                <h2>Company</h2>
-                <a href="index.html">Home</a>
-                <a href="online medicine order.html">online medicine</a>
-                <a href="connect.html">Available stores</a>
-                <a href="register.html">Register</a>
-                <a href="login.html">Login</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="aboutmedihelper.html">About mymedihelper</a>
+                <h2>Company</h2><br>
+                <a href="index.html">Home</a><br>
+                <a href="online medicine order.html">online medicine</a><br>
+                <a href="connect.html">Available stores</a><br>
+                <a href="register.html">Register</a><br>
+                <a href="login.html">Login</a><br>
+                <a href="contact.html">Contact Us</a><br>
+                <a href="aboutmedihelper.html">About mymedihelper</a><br>
+                <a href="termsandconditions.html">T&C</a><br>
+                 <a href="privacypolicy.html">privacy</a><br>
             </div>
 
-            <div class="footer-box">
+           <div class="footer-box">
                 <h2>Popular Categories</h2>
-                <a href="#">Immunity Boosters</a>
-                <a href="#">Speciality Medicines</a>
-                <a href="#">Homeopathy</a>
-                <a href="#">Vitamins and supplements</a>
-                <a href="#">Skin care</a>
+                <a href="#">Immunity Boosters</a><br>
+                <a href="#">Speciality Medicines</a><br>
+                <a href="#">Homeopathy</a><br>
+                <a href="#">Vitamins and supplements</a><br>
+                <a href="#">Skin care</a><br>
             </div>
             <div class="footer-box">
                 <h2>Facilities</h2>
-                <a href="#">Cipla</a>
-                <a href="#">Accu-check</a>
-                <a href="#">AromaMagic</a>
-                <a href="#">Himalaya</a>
-                <a href="#">Patanjali</a>
+                <a href="#">Cipla</a><br>
+                <a href="#">Accu-check</a><br>
+                <a href="#">AromaMagic</a><br>
+                <a href="#">Himalaya</a><br>
+                <a href="#">Patanjali</a><br>
             </div>
             <div class="footer-box">
                 <h2>Social Media</h2>
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">Whatsapp</a>
-                <a href="#">Skype</a>
-                <a href="#">Twitter</a>
+                <a href="#">Facebook</a><br>
+                <a href="#">Instagram</a><br>
+                <a href="#">Whatsapp</a><br>
+                <a href="#">Skype</a><br>
+                <a href="#">Twitter</a><br>
             </div>
         </div>
     </footer>
